@@ -1,0 +1,39 @@
+.container{
+    background-color: rgb(31, 27, 27);
+    display: flex;
+    padding: 20px;
+    
+    
+
+}
+
+.one{
+    background-color: aqua;
+    flex: 4;
+}
+.two{
+    background-color: aquamarine;
+    flex: 2;
+}
+.three{
+    background-color: chocolate;
+    flex: 6;
+}
+
+@media(max-width:580px){
+    .container{
+        display:block;
+        background-color: bisque;
+        padding: 2px;    
+    }
+    .one{
+        background-color:rgb(45, 45, 77);
+        
+    }
+    .two{
+        background-color:rgb(230, 230, 90);
+    }
+    .three{
+        background-color:brown;
+    }
+}
